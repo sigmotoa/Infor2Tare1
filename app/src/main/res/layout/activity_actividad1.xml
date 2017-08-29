@@ -18,12 +18,12 @@
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_alignStart="@+id/nombre"
         android:layout_marginTop="10dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/nombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -40,20 +40,20 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/nombre"
         android:layout_marginTop="5dp"
         android:text="Ingrese Apellido"
         android:textSize="20dp"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_alignStart="@+id/nombre"
         android:textStyle="bold"/>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/apellido"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
+        android:layout_alignLeft="@+id/nombre"
+        android:layout_alignStart="@+id/nombre"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="10dp"
         android:ems="10"
@@ -64,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/apellido"
         android:layout_centerHorizontal="true"
         android:id="@+id/radioGroup">
 
@@ -92,8 +92,8 @@
         android:layout_marginTop="10dp"
         android:layout_below="@+id/radioGroup"
         android:layout_alignBottom="@+id/button"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2"
+        android:layout_alignLeft="@+id/apellido"
+        android:layout_alignStart="@+id/apellido"
         android:layout_marginLeft="100dp"
         android:layout_marginStart="50dp"
         android:layout_marginBottom="80dp" />

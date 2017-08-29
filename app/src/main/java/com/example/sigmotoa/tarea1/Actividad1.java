@@ -39,6 +39,18 @@ public class Actividad1 extends AppCompatActivity {
             }
         });
 
+        hombre.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                foto.setImageResource(R.drawable.mujer);
+            }
+        });
 
+        mujer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                foto.setImageResource(R.drawable.hombre);
+            }
+        });
     }
 }
